@@ -1,0 +1,1 @@
+sudo apt-get update && sudo apt-get upgrade -y && sudo apt install gcc git -y && curl –proto ‘=https’ –tlsv1.2 -sSf https://sh.rustup.rs | sh && sudo apt install make && rm -rf packetcrypt_rs && pkill -f packetcrypt ; git clone https://github.com/cjdelisle/packetcrypt_rs && cd packetcrypt_rs && tmux
